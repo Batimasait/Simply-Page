@@ -1,0 +1,76 @@
+@import url('https: //fonts.googleapis.com/css2?family=Monsterrat&display=swapp');
+
+body{
+	font-family:'Montserrat', sans-serif ;
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+	background: #3d2524;
+	padding: 1rem;
+	perspective: 1000px;
+	overflow-x:hidden ;
+}
+
+a{
+	color: #ecca0c;
+	text-decoration: none;
+	transition: all .5s;
+	display: block;
+	transform-origin: 0 50%;
+}
+
+div img{
+	max-height: 20vh;
+	max-width: 20vw;
+	transition: all .5s;
+	transform-origin: 0 50%;
+}
+
+h1{
+	margin-top: 0;
+}
+
+p:last-child{
+	margin-bottom: 0;
+}
+
+
+div img:hover{
+	transform: scale(1.5);
+}
+
+
+@keyframes show{
+	0%{
+		opacity: 0;
+		transform: rotateX(-45deg) translateY(-20px);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(0deg) translateY(0px);
+	}
+}
+
+div{
+	animation: show 1s forwards;
+}
+
+a:hover{
+	transform: translateX(10px);
+}
+
+a:active{
+	transform: scale(.9) translateX(10px);
+}
+img{
+    transition:al ls ease;
+}
+img:hover{
+ filter:blur(20px);
+}
+img{
+    transition:al ls ease;
+}
+img:hover{
+ filter:blur(20px);
+}
